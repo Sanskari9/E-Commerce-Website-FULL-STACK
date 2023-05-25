@@ -1,0 +1,18 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "this is e-commerce full-stack website",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
